@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Studio Tatto</title>
+
+    <!-- Archivos CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel="stylesheet" type="text/css" />
+
+
+    <!-- Archivos JS and Script -->
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/hover_pack.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/retina.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+
+</head>
+<body>
+
+    <header id="header">
+        <h2 class="w3-validation">For W3 Validation</h2>
+
+        <div class="header">
+            <div class="container">
+                <div class="top-nav">
+                    <div class="top-header">
+                        <div class="responsive-logo">
+                            <a href="Home.html">
+                                <img src="image/logo.png" alt="" /></a>
+                        </div>
+                    </div>
+
+                    <nav class="nav">
+                        <a id="menu-toggle" class="anchor-link" href="#">
+                            <img src="image/nav.png" alt="" /></a>
+
+                        <ul class="nav-list" id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about" class="scroll">Acerca De</a></li>
+                            <li><a href="#gallery" class="scroll">Galeria</a></li>
+
+                            <li class="logo"><a href="Home.html">
+                                <img src="image/logo.png" /></a></li>
+
+                            <li><a href="#faq" class="scroll">Preguntas</a></li>
+                            <li><a href="#find" class="scroll">Encuéntranos</a></li>
+                            <li><a href="#contact" class="scroll">Contactanos</a></li>
+                        </ul>
+                    </nav>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            $('#menu-toggle').click(function () {
+                                $('#menu').toggleClass('open');
+                                e.preventDefault();
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-section">
+        <h2 class="w3-validation">For W3 Validation</h2>
+
+        <div class="container-fluid">
+            <div class="row" id="about">
+                <div class="col-md-6 about_left">
+                    <a href="#" class="button-one about_btn button-type-one button-box">Sobre Nosotros</a>
+                </div>
+
+                <div class="col-md-6 about_right wow fadeInUp" data-wow-delay="0.0s">
+                    <div class="about_text">
+                        <img src="image/tatto.png" class="img-responsive" alt="" />
+                        <h3>Bienvenido a Studio Tatto</h3>
+                        <p>Somos un estudio de tatuajes dedicado a ofrecerte el mejor servicio y calidad en cada diseño. Nuestro equipo de artistas talentosos está listo para ayudartea expresar tu individualidad a través del arte corporal</p>
+                        <p>En Studio Tatto, nos enorgullese utilizar técnicas avanzadas y materiales de primera calidad para garantizar que cada tatuaje sea una obra maestra. Ya sea buscando un diseño pequeño y discreto o una pieza grande y elaborada, estamos aquí para hacer realidad tu visión</p>
+                        <br />
+                        <p>Visítanos y descrube porque somos la elección preferida para los amantes de los tatuajes. ¡Tu próximo tatuaje te espera en Studio Tatto!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery-one-image-section">
+        <h2 class="w3-validation">For W3 Validation</h2>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="gallery-one-top wow fadeInLeft" data-wow-delay="0.0s">
+                    <ul class="about_gallery">
+                        <li>
+                            <div class="b-link-stripe b-animate-go thickbox">
+                                <img src="image/gallery-one-img1.jpg" class="gallery-one-image img-responsive" alt="" />
+                                <div class="b-wrapper">
+                                    <a href="image/about-gallery/1.jpg" rel="prettyPhoto[pp_gal]">
+                                        <button class="zooming about-zooming md-trigger">
+                                            <img src="image/zoom.png" alt="" />
+                                        </button>
+                                    </a>
+                                    <ul class="popup_links popup-links-button">
+                                        <li>
+                                            <button><i class="link"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="info"></i></button>
+                                        </li>
+                                        <li>
+                                            <button><i class="like"></i></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="b-link-stripe b-animate-go thickbox">
+                                <img src="image/gallery-one-img2.jpg" class="gallery-one-image img-responsive" alt="" />
+                                <div class="b-wrapper">
+                                    <div class="b-animate b-from-left b-delay03">
+                                        <a href="image/about-gallery/2.jpg" rel="prettyPhoto[pp_gal]">
+                                            <button class="zooming about-zooming md-trigger">
+                                                <img src="image/zoom.png" alt="" />
+                                            </button>
+                                        </a>
+                                        <ul class="popup_links popup-links-button">
+                                            <li>
+                                                <button><i class="link"></i></button>
+                                            </li>
+                                            <li>
+                                                <button><i class="info"></i></button>
+                                            </li>
+                                            <li>
+                                                <button><i class="like"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+               var defaults = {
+               containerID: 'toTop', // fading element id
+               containerHoverID: 'toTopHover', // fading element hover id
+               scrollSpeed: 1200,
+               easingType: 'linear' 
+              };
+             */
+
+            $().UItoTop({ easingType: 'easeOutQuart' })
+        });
+    </script>
+
+    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+</body>
+</html>
